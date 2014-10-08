@@ -1,0 +1,35 @@
+<component name="libraryTable">
+  <library name="Maven: org.springframework:spring-core:4.0.3.Release">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.0.3.RELEASE/spring-core-4.0.3.Release-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

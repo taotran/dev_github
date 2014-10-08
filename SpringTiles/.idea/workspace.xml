@@ -1,0 +1,1974 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/example.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/vendor/bootstrap-collapse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/de/laudert/taotv/domain/product/Product.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/vendor/jquery-1.8.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/img/glyphicons-halflings-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/user.view.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/vendor/bootstrap-transition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/img/glyphicons-halflings.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap-responsive.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/vendor/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/user.form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/de/laudert/taotv/domain/cart/Cart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/vendor/handlebars-1.0.rc.1.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/SpringTiles_war_exploded.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" afterPath="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_3_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_3_Release.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_3_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_0_3_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/definitions.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/definitions.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_3_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_3_Release.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/layout.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/layout_.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SpringTiles.iml" afterPath="$PROJECT_DIR$/SpringTiles.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/de/laudert/taotv/config/MvcConfig.java" afterPath="$PROJECT_DIR$/src/main/java/de/laudert/taotv/config/MvcConfig.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_3_Release.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_3_Release.xml" />
+    </list>
+    <ignored path="SpringTiles.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="$PROJECT_DIR$/../SpringMVCTilesExample/atlassian-ide-plugin.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411718236303" ignored="false" />
+    <file path="$USER_HOME$/Projects/JAXB/atlassian-ide-plugin.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412759508222" ignored="false" />
+    <file path="$PROJECT_DIR$/../Spring-Tiles/atlassian-ide-plugin.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044374624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/Project/DesignPatterns/atlassian-ide-plugin.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044374624" ignored="false" />
+    <file path="$PROJECT_DIR$/../MVCShop/atlassian-ide-plugin.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044522544" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/Project/SpringMVCTiles/atlassian-ide-plugin.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412217811694" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/atlassian-ide-plugin.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412217811694" ignored="false" />
+    <file path="$PROJECT_DIR$/../ShopWebApp/atlassian-ide-plugin.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412217811694" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411636077274" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/artifacts/SpringTiles_war.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412753357521" ignored="false" />
+    <file path="/web.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411636169482" ignored="false" />
+    <file path="/pom.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412753924844" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_3_RELEASE.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411637038825" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_0_3_RELEASE.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411637038825" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_0_3_RELEASE.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411637038825" ignored="false" />
+    <file path="/WebApplicationConfig.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411987993012" ignored="false" />
+    <file path="/SpringTiles.iml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411637639287" ignored="false" />
+    <file path="/WebAppContext.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411639002193" ignored="false" />
+    <file path="/index.jsp" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411719266289" ignored="false" />
+    <file path="/HelloController.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412758174779" ignored="false" />
+    <file path="/hello.jsp" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411640254215" ignored="false" />
+    <file path="/ApplicationContext.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411985641974" ignored="false" />
+    <file path="/MvcConfig.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412751320073" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jsp_jstl_jstl_api_1_2.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411641474585" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411641474585" ignored="false" />
+    <file path="/UserService.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412049722034" ignored="false" />
+    <file path="/UserServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412070946707" ignored="false" />
+    <file path="/EntityService.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411988913853" ignored="false" />
+    <file path="/EntityServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411988921717" ignored="false" />
+    <file path="/User.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411724029626" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411702672782" ignored="false" />
+    <file path="/TestBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411704089919" ignored="false" />
+    <file path="/SpringSecurityConfig.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411716586344" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_3_2_8_RELEASE.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411706603362" ignored="false" />
+    <file path="/MessageSecurityWebAppInitializer.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411716655116" ignored="false" />
+    <file path="/definitions.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412757831687" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_5_8.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411718835522" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_5_6.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411719665727" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411719665727" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_5_6.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411719665727" ignored="false" />
+    <file path="/PersistenceConfig.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411987806552" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_4_0_3_Release.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411723023757" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_9_0_RELEASE.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411723504530" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_4_0_7_RELEASE.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411723504530" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_0_7_RELEASE.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411723504530" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_0_7_RELEASE.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411723504530" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_1_7_0_Release.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411723504530" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_8_2.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411723504530" ignored="false" />
+    <file path="/UserRepository.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411985793054" ignored="false" />
+    <file path="/AbstractEntity.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412154749723" ignored="false" />
+    <file path="/application.properties" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411988475540" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/manager/CoreModuleManager.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411977779977" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/generic/index/IndexGenericEntityServiceSqlBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411977779977" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/test/resources/META-INF/mp-core-webapp-unittest-config-application-context.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411977779977" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/security/UserSessionServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412159911532" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-mdb-webapp/src/main/resources/META-INF/mp-mdb-webapp-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411977779977" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/node/NodeTypeServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411977779978" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/pom.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412216782360" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-mdb-dm/src/main/java/de/laudert/mediaport3/laudert/mp/mdb/dm/service/file/VolumeServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/pom.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411977779978" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-mdb-dm/pom.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411977779978" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-mdb-webservice/pom.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411977779978" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-product-webapp/src/main/resources/META-INF/mp-product-webapp-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411977779978" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/pom.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412216782360" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/repository/security/UserSessionRepository.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412153903779" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/download/DownloadServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411977779978" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/setup/generic/definition/ObjectInheritanceNodeSetupServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/SessionMonitoringPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411977779978" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-mdb-dm/src/main/java/de/laudert/mediaport3/laudert/mp/mdb/dm/manager/MdbModuleManager.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411977779978" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/resources/META-INF/mp-core-webapp-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411977779978" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/generic/mpobject/InternalMPObjectServiceOneBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411977779978" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/test/java/de/laudert/mediaport3/laudert/mp/core/dm/service/security/UserSessionServiceUnitTest.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412159911532" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-mdb-webapp/pom.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411977779978" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/security/RoleValidationServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411977779978" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/generic/mpobject/ValidateMPObjectServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411977779978" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/generic/index/IndexSearchServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/BrowserVersionManagementAdministrationPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1411977779978" ignored="false" />
+    <file path="/config.properties" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412154950345" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/qdsl/conversion/QueryConversionServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-checkpoint-dm/src/main/java/de/laudert/mediaport3/laudert/mp/checkpoint/dm/service/checkpoint/CheckPointProcessServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/SearchResultObjectTableTreePanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/DefaultLayoutContentPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/menu/GenericSearchPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/SearchResultObjectThumbnailPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/ThumbnailPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/setup/node/NodeTypeSetupServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/menu/SearchPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/AbstractMPApplication.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/SearchResultObjectListPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/ListPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-checkpoint-webapp/src/main/webapp/WEB-INF/web.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/ContentPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/CacheAdministrationPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/StorageMonitoringPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/menu/advancedsearch/AdvancedSearchPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/list/ResultItemObjectClassColumn.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/list/ResultItemRelationColumn.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/list/ResultItemNodeColumn.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/list/ResultItemAttributeColumn.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/StatisticJmsMessagesAdministrationPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/qdsl/search/QdslSearchServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-mdb-webservice/src/main/java/de/laudert/mediaport3/laudert/mp/mdb/webservice/controller/generic/file/FileController.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-mdb-dm/src/main/java/de/laudert/mediaport3/laudert/mp/mdb/dm/service/file/FileHandlingServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/generic/internal/InternalSearchMPObjectServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515284" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/generic/internal/InternalUtilMPObjectServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515285" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/ResourceBundleAdministrationPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515285" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/generic/mpobject/MPObjectXMLServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515285" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/setup/resource/ResourceBundleSetupServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515285" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/SearchIndexAdministrationPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515285" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/browser/BrowserVersionManagementServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515285" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/setup/security/RoleSetupServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515285" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/NodeTypeAdministrationPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412044515285" ignored="false" />
+    <file path="/UserSessionServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412150061933" ignored="false" />
+    <file path="/UserSessionService.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412159903480" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/security/UserSessionService.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412159911532" ignored="false" />
+    <file path="/UserSessionRepository.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412071398072" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-comet-webservice/src/main/java/de/laudert/mediaport3/laudert/mp/comet/webservice/service/CometSessionServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412159912466" ignored="false" />
+    <file path="/CometSessionServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412149068577" ignored="false" />
+    <file path="/UserSessionServiceUnitTest.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412151073858" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/SessionDetailPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412159911532" ignored="false" />
+    <file path="/SessionDetailPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412134496513" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/test/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/SessionDetailPanelUnitTest.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412159912466" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/test/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/SessionMonitoringPanelUnitTest.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412159912466" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/session/MPSessionRegistry.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412159911532" ignored="false" />
+    <file path="/MPSessionRegistry.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412134581047" ignored="false" />
+    <file path="/sample.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412066437359" ignored="false" />
+    <file path="/a.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412066817160" ignored="false" />
+    <file path="/a.dummy" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412673431605" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/security/UserServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412153903779" ignored="false" />
+    <file path="/SessionDetailPanelUnitTest.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412136857870" ignored="false" />
+    <file path="/SessionMonitoringPanelUnitTest.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412149042635" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-comet-webservice/src/test/java/de/laudert/mediaport3/laudert/mp/comet/webservice/service/CometSessionServiceBeanUnitTest.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412159912466" ignored="false" />
+    <file path="/CometSessionServiceBeanUnitTest.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412138656884" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/domain/LocalizableEntityBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412150107789" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/test/java/de/laudert/mediaport3/laudert/mp/core/dm/service/security/UserTestData.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412160365231" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/.idea/runConfigurations/core___dm_unit.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412216781175" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/domain/generic/instance/relation/Link.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412153904533" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/generic/instance/relation/LinkServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412153904533" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-core-webservice/3.1.6-SNAPSHOT/mp-core-webservice-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-core-webservice-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-checkpoint-webservice/3.1.6-SNAPSHOT/mp-checkpoint-webservice-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-mdb-webservice-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-comet-webservice/3.1.6-SNAPSHOT/mp-comet-webservice-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-comet-webservice-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-checkpoint-webservice/3.1.6-SNAPSHOT/mp-checkpoint-webservice-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-core-webservice-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-product-webapp/3.1.6-SNAPSHOT/mp-product-webapp-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-core-webapp-config-cronjob.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-product-webservice/3.1.6-SNAPSHOT/mp-product-webservice-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-mdb-webservice-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-product-webapp/3.1.6-SNAPSHOT/mp-product-webapp-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-product-webapp-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-checkpoint-webservice/3.1.6-SNAPSHOT/mp-checkpoint-webservice-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-checkpoint-webservice-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-mdb-webservice/3.1.6-SNAPSHOT/mp-mdb-webservice-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-mdb-webservice-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-checkpoint-webapp/3.1.6-SNAPSHOT/mp-checkpoint-webapp-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-core-webapp-config-cronjob.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-product-webservice/3.1.6-SNAPSHOT/mp-product-webservice-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-core-webservice-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-mdb-webservice/3.1.6-SNAPSHOT/mp-mdb-webservice-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-core-webservice-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-product-webapp/3.1.6-SNAPSHOT/mp-product-webapp-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-core-webapp-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-checkpoint-webapp/3.1.6-SNAPSHOT/mp-checkpoint-webapp-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-core-webapp-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-product-webapp/3.1.6-SNAPSHOT/mp-product-webapp-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-core-webapp-config-security.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-checkpoint-webapp/3.1.6-SNAPSHOT/mp-checkpoint-webapp-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-core-webapp-config-security.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-product-webservice/3.1.6-SNAPSHOT/mp-product-webservice-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-product-webservice-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-product-webapp/3.1.6-SNAPSHOT/mp-product-webapp-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-mdb-webapp-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-checkpoint-webapp/3.1.6-SNAPSHOT/mp-checkpoint-webapp-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-mdb-webapp-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-checkpoint-webapp/3.1.6-SNAPSHOT/mp-checkpoint-webapp-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-checkpoint-webapp-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-mdb-webapp/3.1.6-SNAPSHOT/mp-mdb-webapp-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-core-webapp-config-cronjob.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-core-webapp/3.1.6-SNAPSHOT/mp-core-webapp-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-core-webapp-config-cronjob.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412663507643" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-core-webapp/3.1.6-SNAPSHOT/mp-core-webapp-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-core-webapp-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412663507643" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-mdb-webapp/3.1.6-SNAPSHOT/mp-mdb-webapp-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-core-webapp-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-mdb-webapp/3.1.6-SNAPSHOT/mp-mdb-webapp-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-core-webapp-config-security.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-mdb-webapp/3.1.6-SNAPSHOT/mp-mdb-webapp-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-mdb-webapp-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412658202244" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-core-webapp/3.1.6-SNAPSHOT/mp-core-webapp-3.1.6-SNAPSHOT-classes.jar!/META-INF/mp-core-webapp-config-security.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412663507643" ignored="false" />
+    <file path="/Dummy.txt" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412735929746" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-checkpoint-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/checkpoint/webapp/provider/AggregatedResultItemDataProvider.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412160365231" ignored="false" />
+    <file path="/messages.properties" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412752092872" ignored="false" />
+    <file path="/menu.jsp" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412215982146" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/resources/META-INF/mp-core-dm-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412216782360" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../Shared/development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/manager/MigrationManager.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412216782360" ignored="false" />
+    <file path="$PROJECT_DIR$/../../SpringMVCTiles/atlassian-ide-plugin.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412759508222" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/atlassian-ide-plugin.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412759508222" ignored="false" />
+    <file path="$USER_HOME$/Downloads/ShopWebApp/atlassian-ide-plugin.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412759508222" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/resources/META-INF/mp-core-webapp-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412239554312" ignored="false" />
+    <file path="/mp-core-webapp-config.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412238620419" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/resources/setup/core/resources/core-webapp_en.properties" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412590687046" ignored="false" />
+    <file path="/core-webapp_en.properties" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412590687046" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/resources/setup/core/resources/core-webapp_de.properties" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412590697219" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/resources/setup/core/resources/core-webapp_nl.properties" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412590700748" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/ObjectViewAdministrationPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412593374550" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/ObjectViewAdministrationPanel.html" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412591508018" ignored="false" />
+    <file path="/ObjectViewAdministrationPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412593374017" ignored="false" />
+    <file path="/ObjectViewAdministrationPanel.html" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412324259830" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/model/list/objectview/AllObjectViewListLDModel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412328108814" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-mdb-webapp/3.1.6-SNAPSHOT/mp-mdb-webapp-3.1.6-SNAPSHOT-classes.jar!/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/NodeTypeAdministrationPanel.class" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412241539214" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/ObjectViewAdministrationAccordionPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412308025117" ignored="false" />
+    <file path="/ObjectViewAdministrationAccordionPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412308022318" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-mdb-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/mdb/webapp/panel/content/administration/DownloadLimitationAdministrationPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412248065268" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/dialog/exportsearch/administration/PresetAdministrationDialogPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412305890186" ignored="false" />
+    <file path="/PresetAdministrationDialogPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412305883917" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/ObjectViewAdministrationAccordionPanel.html" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412306827091" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/manager/CoreModuleManager.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412310300715" ignored="false" />
+    <file path="/AllObjectViewListLDModel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412328104617" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/model/list/objectview/AllGlobalObjectViewListLDModel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412329844736" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/generic/view/objectview/ObjectViewService.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412329385665" ignored="false" />
+    <file path="/ObjectViewService.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412329357096" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/service/generic/view/objectview/ObjectViewServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412329819043" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/repository/generic/view/objectview/ObjectViewRepository.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412329466013" ignored="false" />
+    <file path="/ObjectViewRepository.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412329461944" ignored="false" />
+    <file path="/ObjectViewServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412329817739" ignored="false" />
+    <file path="/AllGlobalObjectViewListLDModel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412329843454" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/dialog/ObjectViewEditorDialog.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412666777360" ignored="false" />
+    <file path="/ObjectViewEditorDialog.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412588067999" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/dialog/ObjectViewEditorDialog.html" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412586568632" ignored="false" />
+    <file path="/ObjectViewEditorDialog.html" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412586568631" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/event/ObjectViewEditEvent.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412334101952" ignored="false" />
+    <file path="/ObjectViewEditEvent.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412333986176" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/db/migration/core_3_1_6/Patch_003_objectview_add_changed_flag.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412568200144" ignored="false" />
+    <file path="/Patch_003_objectview_add_changed_flag.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412567960423" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/setup/generic/ObjectViewSetupServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412588879288" ignored="false" />
+    <file path="/ObjectViewSetupServiceBean.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412583818988" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/domain/generic/view/objectview/ObjectView.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412583335582" ignored="false" />
+    <file path="/ObjectView.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412570997831" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-core-dm/3.1.6-SNAPSHOT/mp-core-dm-3.1.6-SNAPSHOT-tests.jar!/testng-dev-integrationtest.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412577614337" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-core-dm/3.1.6-SNAPSHOT/mp-core-dm-3.1.6-SNAPSHOT-tests.jar!/testng-dev-idetest.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412577614337" ignored="false" />
+    <file path="$MAVEN_REPOSITORY$/de/laudert/mediaport3/laudert/mp-core-dm/3.1.6-SNAPSHOT/mp-core-dm-3.1.6-SNAPSHOT-tests.jar!/testng-ci-integrationtest.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412577614337" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/manager/ApplicationManager.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412590504574" ignored="false" />
+    <file path="/ApplicationManager.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412590503773" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/db/migration/core_3_1_6/Patch_003_objectview_manuallymodified.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412670616588" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/manager/MigrationManager.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412590309415" ignored="false" />
+    <file path="/MigrationManager.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412590286235" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-dm/src/main/java/de/laudert/mediaport3/laudert/mp/core/dm/manager/ModulesManager.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412590500823" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/main/java/de/laudert/mediaport3/laudert/mp/core/webapp/component/table/column/MenuButtonColumn.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412593507399" ignored="false" />
+    <file path="/MenuButtonColumn.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412593492689" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/test/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/ObjectViewAdministrationPanel.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412651910898" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/test/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/ObjectViewAdministrationPanelUnitTest.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412665870365" ignored="false" />
+    <file path="/ObjectViewAdministrationPanelUnitTest.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412665283764" ignored="false" />
+    <file path="/fragment.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412665626946" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-webapp/src/test/java/de/laudert/mediaport3/laudert/mp/core/webapp/panel/content/administration/dialog/ObjectViewEditorDialogUnitTest.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412657023450" ignored="false" />
+    <file path="/ObjectViewEditorDialogUnitTest.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412656984828" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../development/projects_git/mediaport3/mp-modules/mp-core-dm/src/test/java/de/laudert/mediaport3/laudert/mp/core/dm/service/generic/view/objectview/ObjectViewServiceUnitTest.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412657867938" ignored="false" />
+    <file path="/ObjectViewServiceUnitTest.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412657809992" ignored="false" />
+    <file path="/Patch_003_objectview_manuallymodified.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412670576456" ignored="false" />
+    <file path="/Cart.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412743118307" ignored="false" />
+    <file path="/Product.java" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412739562724" ignored="false" />
+    <file path="/layout.jsp" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412752009494" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412752795689" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/artifacts/SpringTiles_war_exploded.xml" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412753357521" ignored="false" />
+    <file path="/login.jsp" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412757966041" ignored="false" />
+    <file path="/loginTemplate.jsp" changelist="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" time="1412756659013" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="layout.jsp" pinned="false" current="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/layout.jsp">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="6" column="20" selection-start="302" selection-end="302" vertical-scroll-proportion="-0.3888889">
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="SpringTiles" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="241" column="57" selection-start="8015" selection-end="8015" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebApplicationConfig.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/config/WebApplicationConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="45" selection-start="649" selection-end="649" vertical-scroll-proportion="0.45751634">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MvcConfig.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/config/MvcConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="58" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="definitions.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/definitions.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="77" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginTemplate.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/loginTemplate.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="38" selection-start="496" selection-end="496" vertical-scroll-proportion="-5.2083335">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout_.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/layout_.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="10" selection-start="596" selection-end="596" vertical-scroll-proportion="-10.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="signin.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/signin.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="58" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="33" selection-start="489" selection-end="489" vertical-scroll-proportion="-5.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="6" selection-start="290" selection-end="290" vertical-scroll-proportion="-5.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationContext.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/config/ApplicationContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="13" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="messages.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/i18n/messages.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hello.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/hello.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="6" selection-start="260" selection-end="260" vertical-scroll-proportion="-7.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Repository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.Release-sources.jar!/org/springframework/stereotype/Repository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="18" selection-start="2499" selection-end="2499" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Import.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.0.3.RELEASE/spring-context-4.0.3.Release-sources.jar!/org/springframework/context/annotation/Import.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="18" selection-start="2124" selection-end="2124" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PersistenceConfig.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/config/PersistenceConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="13" selection-start="1626" selection-end="1626" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="62" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/profiles/integration-test/config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserRepository.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/repository/user/UserRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="17" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/domain/user/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="28" selection-start="374" selection-end="374" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractEntity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/domain/AbstractEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="0" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/service/user/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="25" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/domain/product/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="34" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Cart.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/domain/cart/Cart.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="0" selection-start="816" selection-end="816" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/service/user/UserServiceBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="14" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityServiceBean.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/service/EntityServiceBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/service/EntityService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="17" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HelloController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="42" selection-start="1082" selection-end="1094" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="7" selection-start="451" selection-end="451" vertical-scroll-proportion="-11.25">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="SYNC_SETTING" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/spring-security-integration" />
+      </map>
+    </option>
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/de/laudert/taotv/domain/AbstractEntity.java" />
+        <option value="$PROJECT_DIR$/profiles/dev/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/menu.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/de/laudert/taotv/service/cart/Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/laudert/taotv/domain/product/Product.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/laudert/taotv/domain/cart/Cart.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/test.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/signin.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/layout.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/loginTemplate.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/definitions.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/de/laudert/taotv/config/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/de/laudert/taotv/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Spring Tiles" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Spring Tiles" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Profiles" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProfilesNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1404" />
+    <option name="y" value="134" />
+    <option name="width" value="1717" />
+    <option name="height" value="1042" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>AOP</id>
+          </State>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Assignment issues</id>
+          </State>
+          <State>
+            <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Assignment issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Bitwise operation issues</id>
+          </State>
+          <State>
+            <id>Bitwise operation issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Class structure</id>
+          </State>
+          <State>
+            <id>Code maturity issues</id>
+          </State>
+          <State>
+            <id>Code quality toolsJavaScript</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>CoffeeScript</id>
+          </State>
+          <State>
+            <id>Control flow issues</id>
+          </State>
+          <State>
+            <id>Control flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Data flow issues</id>
+          </State>
+          <State>
+            <id>Data flow issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
+            <id>Dependency issues</id>
+          </State>
+          <State>
+            <id>Encapsulation issues</id>
+          </State>
+          <State>
+            <id>Error handling</id>
+          </State>
+          <State>
+            <id>Error handlingGroovy</id>
+          </State>
+          <State>
+            <id>Error handlingJavaScript</id>
+          </State>
+          <State>
+            <id>Finalization issues</id>
+          </State>
+          <State>
+            <id>FlexUnit inspections</id>
+          </State>
+          <State>
+            <id>GPath inspectionsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google App Engine</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Imports</id>
+          </State>
+          <State>
+            <id>Inheritance issues</id>
+          </State>
+          <State>
+            <id>Initialization issues</id>
+          </State>
+          <State>
+            <id>IntelliJ IDEA Platform Inspections</id>
+          </State>
+          <State>
+            <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>J2ME issues</id>
+          </State>
+          <State>
+            <id>JBoss Seam issues</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>Java language level issues</id>
+          </State>
+          <State>
+            <id>Java language level migration aids</id>
+          </State>
+          <State>
+            <id>JavaBeans issues</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript function metricsJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript validity issuesJavaScript</id>
+          </State>
+          <State>
+            <id>Javadoc issues</id>
+          </State>
+          <State>
+            <id>Memory issues</id>
+          </State>
+          <State>
+            <id>Method metrics</id>
+          </State>
+          <State>
+            <id>Modularization issues</id>
+          </State>
+          <State>
+            <id>Naming conventions</id>
+          </State>
+          <State>
+            <id>Numeric issues</id>
+          </State>
+          <State>
+            <id>Packaging issues</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsJavaScript</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+          <State>
+            <id>Probable bugsCoffeeScript</id>
+          </State>
+          <State>
+            <id>Probable bugsGroovy</id>
+          </State>
+          <State>
+            <id>Probable bugsJavaScript</id>
+          </State>
+          <State>
+            <id>Security issues</id>
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+          <State>
+            <id>UI Form Problems</id>
+          </State>
+          <State>
+            <id>Verbose or redundant code constructs</id>
+          </State>
+          <State>
+            <id>Visibility issues</id>
+          </State>
+          <State>
+            <id>Web Services</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>toString() issues</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="library-invalid-classes-path(library:project:Maven: root.project:primary-source:1.0)" />
+      <problem id="unused-library(library:project:Maven: root.project:primary-source:1.0)" />
+    </ignored-problems>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpringTiles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotv" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/css" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/static" />
+      <recent name="$PROJECT_DIR$/profiles/integration-test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/static/css" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/static" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tomcat 7.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="SpringTiles:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_SpringTiles_14" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55243" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SpringTiles:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="sslv3">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5abe5229-5d12-4dcf-9b36-b5e763eb60e0" name="Default" comment="" />
+      <created>1411635689324</created>
+      <updated>1411635689324</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1404" y="134" width="1717" height="1042" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35791758" sideWeight="0.8629563" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35791758" sideWeight="0.13704368" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.49970078" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Analysis" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09754638" sideWeight="0.64208245" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.49970078" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3518851" sideWeight="0.64208245" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.49970078" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329718" sideWeight="0.49970078" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="atlassian-ide-plugin-workspace">
+    <option name="bambooConfiguration">
+      <BambooWorkspaceConfiguration>
+        <option name="view">
+          <BambooViewConfigurationBean />
+        </option>
+      </BambooWorkspaceConfiguration>
+    </option>
+    <option name="defaultCredentials">
+      <UserCfgBean />
+    </option>
+  </component>
+  <component name="atlassian-ide-plugin-workspace-issues">
+    <option name="view">
+      <JiraViewConfigurationBean>
+        <option name="viewFilterId" value="" />
+      </JiraViewConfigurationBean>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/layout.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="20" selection-start="302" selection-end="302" vertical-scroll-proportion="-0.3888889">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/signin.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="58" selection-start="471" selection-end="471" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/service/EntityService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="17" selection-start="131" selection-end="131" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/config/PersistenceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="13" selection-start="1626" selection-end="1626" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/repository/user/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="17" selection-start="220" selection-end="220" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.0.3.Release/spring-webmvc-4.0.3.Release-sources.jar!/org/springframework/web/servlet/view/UrlBasedViewResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="62" selection-start="5310" selection-end="5310" vertical-scroll-proportion="0.03440367">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.0.3.Release/spring-web-4.0.3.Release-sources.jar!/org/springframework/web/context/support/AnnotationConfigWebApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="28" selection-start="2920" selection-end="2920" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/layouts/definitions.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="77" selection-start="1260" selection-end="1260" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/loginTemplate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="38" selection-start="496" selection-end="496" vertical-scroll-proportion="-5.2083335">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/template/layout_.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="10" selection-start="596" selection-end="596" vertical-scroll-proportion="-10.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="42" selection-start="1082" selection-end="1094" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="33" selection-start="489" selection-end="489" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/config/ApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="58" selection-start="2188" selection-end="2188" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/de/laudert/taotv/config/WebApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="45" selection-start="649" selection-end="649" vertical-scroll-proportion="0.45751634">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="artifact" />
+              <type id="javaee-facet-resources" />
+              <type id="library" />
+              <type id="jpa-descriptors" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>SpringTiles:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SpringTiles</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
