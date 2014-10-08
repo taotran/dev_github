@@ -41,4 +41,9 @@ public class HelloController {
     public String loginSucceed(ModelMap model) {
         return "index";
     }
+
+    @RequestMapping(value = "/loginFailed")
+    public String loginFailed() {
+        return "login";
+    }
 }
