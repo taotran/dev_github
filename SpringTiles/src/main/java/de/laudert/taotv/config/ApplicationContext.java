@@ -16,7 +16,7 @@ import org.springframework.context.support.ResourceBundleMessageSource;
 @Configuration
 @ComponentScan(basePackages = {"de.laudert.taotv.service"})
 @PropertySource("classpath:application.properties")
-@Import({MvcConfig.class, PersistenceConfig.class})
+@Import({PersistenceConfig.class, SpringSecurityConfig.class})
 public class ApplicationContext {
 
     private static final String MESSAGE_SOURCE_BASE_NAME = "i18n/messages";

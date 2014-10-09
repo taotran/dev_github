@@ -29,11 +29,19 @@
 
                 <span class="brand"><spring:message code="label.navigation.brand"/></span>
 
-                <div class="nav-collapse">
-                    <ul class="nav">
-                        <li><a href="/"><spring:message code="label.navigation.homepage.link"/></a></li>
-                    </ul>
-                </div>
+                <%--<form name="logoutForm" action="/j_spring_security_logout">--%>
+
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li><a href="/"><spring:message code="label.navigation.homepage.link"/></a></li>
+                            <c:url value="/j_spring_security_logout" var="logoutUrl"/>
+                            <%--<li><a href="#" onclick="document.logoutForm.submit();"><spring:message code="label.navigation.logout.link"/></a></li>--%>
+                            <li><a href="${logoutUrl}"><spring:message code="label.navigation.logout.link"/></a></li>
+                            <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+                        </ul>
+                    </div>
+                <%--</form>--%>
+
             </div>
         </div>
     </div>

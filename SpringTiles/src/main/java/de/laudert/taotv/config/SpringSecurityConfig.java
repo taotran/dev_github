@@ -17,7 +17,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
-    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+    public void configureGlobal(@SuppressWarnings("SpringJavaAutowiringInspection")AuthenticationManagerBuilder auth) throws Exception {
         auth.inMemoryAuthentication().withUser("user").password("user").roles("USER");
         auth.inMemoryAuthentication().withUser("admin").password("admin").roles("ADMIN");
     }
@@ -26,9 +26,24 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
             .authorizeRequests()
+                .antMatchers("/login*").access("IS_AUTHENTICATED_ANONYMOUSLY")
                 .antMatchers("/admin/**").access("hasRole('ROLE_ADMIN')")
                 .antMatchers("/dba/**").access("hasRole('ROLE_ADMIN') or hasRole('ROLE_DBA')");
-        http.formLogin().loginPage("/login").failureUrl("/loginFailed");
+//        http.formLogin().loginPage("/login").failureUrl("/login?error").defaultSuccessUrl("/admin/cartAdmin")
+//            .usernameParameter("username")
+//            .passwordParameter("password")
+//            .and()
+//            .logout().logoutSuccessUrl("/login?logout").deleteCookies("JSESSIONID")
+//            .and()
+//            .csrf();
+
+        http.formLogin().loginPage("/login").failureUrl("/login?error='loginFailed'").defaultSuccessUrl("/admin/cartAdmin")
+            .usernameParameter("username")
+            .passwordParameter("password")
+            .and()
+            .logout().logoutSuccessUrl("/").logoutUrl("/j_spring_security_logout").deleteCookies("JSESSIONID");
+        http.rememberMe().tokenValiditySeconds(86400);
+        http.csrf().disable();
 
     }
 }

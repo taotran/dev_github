@@ -23,7 +23,7 @@ import org.springframework.web.servlet.view.tiles3.TilesViewResolver;
 @ComponentScan(basePackages = {"de.laudert.taotv.controller"})
 public class MvcConfig extends WebMvcConfigurerAdapter {
 
-    private static final String TILES_DEFINITION = "/WEB-INF/layouts/definitions.xml";
+    private static final String TILES_DEFINITION = "/WEB-INF/tile-defs/definitions.xml";
 
     @Override
     public void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {

@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 
 /**
  * User: tvt
@@ -32,9 +33,20 @@ public class HelloController {
         return "index";
     }
 
-    @RequestMapping(value = "/login")
-    public String login(ModelMap model) {
-        return "login";
+    @RequestMapping(value = "/login", method = RequestMethod.GET)
+    public String login(@RequestParam(value = "error", required = false) String error, @RequestParam(value = "logout", required = false) String logout, ModelMap model) {
+        System.out.println("INSIDE LOGIN CONTROLLER!!!");
+//        String returnView = "/admin/cartAdmin";
+        String returnView = "login";
+        if (error != null) {
+            model.addAttribute(error, "Invalid Username or Password");
+            returnView = "login";
+        }
+
+        if(logout != null) {
+            model.addAttribute(logout, "You've been logged out successfully!");
+        }
+        return returnView;
     }
 
     @RequestMapping(value = "/loginSucceed")
@@ -46,4 +58,10 @@ public class HelloController {
     public String loginFailed() {
         return "login";
     }
+
+//    @RequestMapping(value = "/logout")
+//    public String logout() {
+//
+//        return "login";
+//    }
 }

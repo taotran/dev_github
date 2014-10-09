@@ -84,5 +84,11 @@
     <orderEntry type="library" name="Maven: org.jadira.usertype:usertype.core:3.0.0.CR3" level="project" />
     <orderEntry type="library" name="Maven: org.joda:joda-money:0.6" level="project" />
   </component>
+  <component name="SonarSettingsModuleComponent">
+    <option name="host" value="" />
+    <option name="user" value="" />
+    <option name="password" value="" />
+    <option name="resource" value="" />
+  </component>
 </module>
 
