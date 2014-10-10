@@ -30,15 +30,6 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
         configurer.enable();
     }
 
-    /*@Bean
-    public ViewResolver viewResolver() {
-        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-        viewResolver.setViewClass(JstlView.class);
-        viewResolver.setPrefix(VIEW_RESOURCE_PREFIX);
-        viewResolver.setSuffix(VIEW_RESOURCE_SUFFIX);
-        return viewResolver;
-    }*/
-
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/static/**").addResourceLocations("/static/");

@@ -1,8 +1,5 @@
 package de.laudert.taotv.domain;
 
-import org.hibernate.annotations.Type;
-import org.joda.time.DateTime;
-
 import javax.persistence.Column;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -10,6 +7,8 @@ import javax.persistence.Id;
 import javax.persistence.MappedSuperclass;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
+import java.sql.Timestamp;
+import java.util.Date;
 
 /**
  * User: tvt
@@ -24,18 +23,16 @@ public class AbstractEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name = "dbinsertdate", unique = false, nullable = false, insertable = true, updatable = false)
-    @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentDateTime")
-    private DateTime dbInsertDate;
+    @Column(name = "dbinsertdate", unique = false, nullable = false, insertable = true, updatable = false, columnDefinition = "timestamp default current_timestamp")
+    private Timestamp dbInsertDate;
 
-    @Column(name = "dbupdatedate", unique = false, nullable = false, insertable = true, updatable = true)
-    @Type(type = "org.jadira.usertype.dateandtime.joda.PersistentDateTime")
-    private DateTime dbUpdateDate;
+    @Column(name = "dbupdatedate", unique = false, nullable = false, insertable = true, updatable = true, columnDefinition = "timestamp")
+    private Timestamp dbUpdateDate;
 
     @PrePersist
     @PreUpdate
     void updateTimeStamps() {
-        dbUpdateDate = DateTime.now();
+        dbUpdateDate = new Timestamp(new Date().getTime());
         if (dbInsertDate == null) { dbInsertDate = dbUpdateDate; }
     }
 
@@ -47,19 +44,19 @@ public class AbstractEntity {
         this.id = id;
     }
 
-    public DateTime getDbInsertDate() {
+    public Timestamp getDbInsertDate() {
         return dbInsertDate;
     }
 
-    public void setDbInsertDate(DateTime dbInsertDate) {
+    public void setDbInsertDate(Timestamp dbInsertDate) {
         this.dbInsertDate = dbInsertDate;
     }
 
-    public DateTime getDbUpdateDate() {
+    public Timestamp getDbUpdateDate() {
         return dbUpdateDate;
     }
 
-    public void setDbUpdateDate(DateTime dbUpdateDate) {
+    public void setDbUpdateDate(Timestamp dbUpdateDate) {
         this.dbUpdateDate = dbUpdateDate;
     }
 }

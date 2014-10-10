@@ -22,14 +22,10 @@ public class HelloController {
 
     @RequestMapping(value = "/index", method = RequestMethod.GET)
     public String hello(ModelMap model) {
-        System.out.println("Inside Controller");
         User user = new User();
         user.setId(3L);
         user.setUsername("taotran");
         user.setPassword("12345");
-
-        userService.save(user);
-        userService.findAll();
         return "index";
     }
 
@@ -54,14 +50,14 @@ public class HelloController {
         return "index";
     }
 
-    @RequestMapping(value = "/loginFailed")
+    @RequestMapping(value = "/error")
     public String loginFailed() {
-        return "login";
+        return "error";
     }
 
-//    @RequestMapping(value = "/logout")
-//    public String logout() {
-//
-//        return "login";
-//    }
+    @RequestMapping(value = "/logout")
+    public String logout() {
+        System.out.println("LOGGING OUT!");
+        return "j_spring_security_logout";
+    }
 }
