@@ -1,5 +1,7 @@
 package de.laudert.taotv.service;
 
+import de.laudert.taotv.exception.ItemNotFoundException;
+
 import java.util.List;
 
 /**
@@ -13,8 +15,7 @@ public interface EntityService<T> {
 
     public List<T> findAll();
 
-    public void delete(Long id);
+    public void delete(Long id) throws ItemNotFoundException;
 
     public T save(T t);
-
 }

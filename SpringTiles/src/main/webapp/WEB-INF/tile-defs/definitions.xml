@@ -16,6 +16,10 @@
         <put-attribute name="body" value="INDEX"/>
     </definition>
 
+    <definition name="userList" extends="DefaultTemplate">
+        <put-attribute name="body" value="/WEB-INF/views/UserList.jsp"/>
+    </definition>
+
     <definition name="cartAdmin" extends="DefaultTemplate">
         <put-attribute name="body" value="/WEB-INF/views/cartAdmin.jsp"/>
     </definition>

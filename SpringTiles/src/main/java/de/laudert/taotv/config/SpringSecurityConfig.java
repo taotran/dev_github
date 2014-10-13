@@ -1,5 +1,6 @@
 package de.laudert.taotv.config;
 
+import de.laudert.taotv.controller.LogoutSuccessHandler;
 import de.laudert.taotv.repository.user.UserRepository;
 import de.laudert.taotv.service.login.LoginService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,8 +11,6 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
-import javax.sql.DataSource;
-
 /**
  * User: tvt
  * Date: 9/26/14
@@ -21,9 +20,6 @@ import javax.sql.DataSource;
 @EnableWebSecurity
 @Import({PersistenceConfig.class})
 public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
-
-    @Autowired
-    private DataSource dataSource;
 
     @Autowired
     private UserRepository userRepository;
@@ -41,14 +37,21 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
     protected void configure(HttpSecurity http) throws Exception {
         http
             .authorizeRequests()
-            .antMatchers("/admin/**").access("hasRole('ROLE_ADMIN')")
-            .antMatchers("/dba/**").access("hasRole('ROLE_ADMIN') or hasRole('ROLE_DBA')");
+            .antMatchers("/login*").permitAll()
+            .antMatchers("/static/**").permitAll()
+            .antMatchers("/index*").access("hasRole('USER') or hasRole('ADMIN')")
+            .antMatchers("/admin/**").access("hasRole('ADMIN')")
+            .antMatchers("/dba/**").access("hasRole('ADMIN') or hasRole('DBA')");
 
         http.formLogin().loginPage("/login").failureUrl("/error").defaultSuccessUrl("/index")
             .usernameParameter("username")
             .passwordParameter("password")
             .and()
-            .logout().logoutSuccessUrl("/").logoutUrl("/logout").deleteCookies("JSESSIONID");
+//                .logout().logoutSuccessUrl("/").logoutUrl("/logout").deleteCookies("JSESSIONID")
+            .logout().logoutSuccessHandler(new LogoutSuccessHandler())
+            .and()
+            .exceptionHandling().accessDeniedPage("/error")
+        ;
         http.rememberMe().tokenValiditySeconds(86400);
         http.csrf().disable();
     }

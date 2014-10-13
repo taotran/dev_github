@@ -1,5 +1,13 @@
 package de.laudert.taotv.service;
 
+import de.laudert.taotv.domain.AbstractEntity;
+import de.laudert.taotv.exception.ItemNotFoundException;
+import de.laudert.taotv.repository.EntityRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
+
 import java.util.List;
 
 /**
@@ -7,26 +15,38 @@ import java.util.List;
  * Date: 9/26/14
  * Time: 10:05 AM
  */
-public class EntityServiceBean<T> implements EntityService<T> {
+public class EntityServiceBean<T extends AbstractEntity> implements EntityService<T> {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(EntityServiceBean.class);
+
+    @Autowired
+    private EntityRepository<T> entityRepository;
 
     @Override
     public T findOne(Long id) {
-        return null;
+        return entityRepository.findOne(id);
     }
 
     @Override
     public List<T> findAll() {
-        System.out.println("Inside findAll()");
-        return null;
+        return entityRepository.findAll();
     }
 
     @Override
-    public void delete(Long id) {
+    @Transactional
+    public void delete(Long id) throws ItemNotFoundException {
+        if (findOne(id) == null) {
+            throw new ItemNotFoundException("Entity not found. Id: " + id);
+        }
 
+        LOGGER.debug("Deleting entity {}");
+
+        entityRepository.delete(id);
     }
 
     @Override
+    @Transactional(rollbackFor = Exception.class)
     public T save(T t) {
-        return null;
+        return entityRepository.save(t);
     }
 }

@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * Time: 5:15 PM
  */
 @Controller
-public class HelloController {
+public class AuthenticatedController {
 
     @Autowired
     private UserService userService;
@@ -39,7 +39,7 @@ public class HelloController {
             returnView = "login";
         }
 
-        if(logout != null) {
+        if (logout != null) {
             model.addAttribute(logout, "You've been logged out successfully!");
         }
         return returnView;
@@ -51,7 +51,8 @@ public class HelloController {
     }
 
     @RequestMapping(value = "/error")
-    public String loginFailed() {
+    public String accessDenied() {
+        System.out.println("ACCESS DENIED");
         return "error";
     }
 
@@ -59,5 +60,11 @@ public class HelloController {
     public String logout() {
         System.out.println("LOGGING OUT!");
         return "j_spring_security_logout";
+    }
+
+    @RequestMapping(value = "/userList")
+    public String userList(ModelMap model) {
+        model.addAttribute("users", userService.findAll());
+        return "userList";
     }
 }

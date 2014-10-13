@@ -35,6 +35,7 @@
                         <c:url value="/logout" var="logoutUrl"/>
                         <li><a href="${logoutUrl}"><spring:message code="label.navigation.logout.link"/></a></li>
                         <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
+                        <li><a href="/userList"><spring:message code="label.navigation.user_list"/></a></li>
                     </ul>
                 </div>
             </div>

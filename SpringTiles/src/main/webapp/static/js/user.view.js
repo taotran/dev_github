@@ -1,6 +1,6 @@
-$(function() {
+$(function () {
 
-    $(".well").on("click", "#delete-user-link", function(e) {
+    $(".table").on("click", "#delete-user-link", function (e) {
         e.preventDefault();
 
         var userDeleteDialogTempate = Handlebars.compile($("#template-delete-user-confirmation-dialog").html());
@@ -9,7 +9,7 @@ $(function() {
         $("#delete-user-confirmation-dialog").modal();
     })
 
-    $("#view-holder").on("click", "#cancel-user-button", function(e) {
+    $("#view-holder").on("click", "#cancel-user-button", function (e) {
         e.preventDefault();
 
         var deleteConfirmationDialog = $("#delete-user-confirmation-dialog")
@@ -17,8 +17,8 @@ $(function() {
         deleteConfirmationDialog.remove();
     });
 
-    $("#view-holder").on("click", "#delete-user-button", function(e) {
+    $("#view-holder").on("click", "#delete-user-button", function (e) {
         e.preventDefault();
-        window.location.href = "/user/delete/" + $("#user-id").text();
+        window.location.href = "/admin/delete/id=" + $("#user-id").text();
     });
 });
