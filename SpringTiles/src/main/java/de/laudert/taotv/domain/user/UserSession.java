@@ -22,13 +22,13 @@ public class UserSession extends AbstractEntity {
     @JoinColumn(name = "fk_user")
     private User user;
 
-    @Column(name = "logintimestamp")
+    @Column(name = "logintimestamp", nullable = false)
     private Timestamp loginTimestamp;
 
     @Column(name = "logouttimestamp")
     private Timestamp logoutTimestamp;
 
-    @Column(name = "sessionid")
+    @Column(name = "sessionid", nullable = false)
     private String sessionId;
 
     /* GETTER & SETTER */

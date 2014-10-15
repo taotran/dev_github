@@ -24,7 +24,7 @@ public class LogoutSuccessHandler extends SimpleUrlLogoutSuccessHandler {
         if (authentication != null) {
             logger.debug(request.getSession().getId() + " LOGGED OUT");
         }
-        setDefaultTargetUrl("/login");
+        setDefaultTargetUrl("/index");
         super.onLogoutSuccess(request, response, authentication);
     }
 }

@@ -10,6 +10,7 @@ import org.springframework.security.config.annotation.authentication.builders.Au
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.web.session.ConcurrentSessionFilter;
 
 /**
  * User: tvt
@@ -25,12 +26,18 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
     private UserRepository userRepository;
 
     @Autowired
-    public void configureGlobal(@SuppressWarnings("SpringJavaAutowiringInspection") AuthenticationManagerBuilder auth) throws Exception {
+    private ConcurrentSessionFilter concurrentSessionFilter;
+
+    @Autowired
+    private LoginService loginService;
+
+    @Autowired
+    public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
 //        auth.inMemoryAuthentication().withUser("user").password("user").roles("USER");
 //        auth.inMemoryAuthentication().withUser("admin").password("admin").roles("ADMIN");
 //        auth.jdbcAuthentication().dataSource(dataSource).usersByUsernameQuery("select username, password, enabled from user where username=?")
 //            .authoritiesByUsernameQuery("select username, role from user_role where username=?");
-        auth.userDetailsService(new LoginService(userRepository));
+        auth.userDetailsService(loginService);
     }
 
     @Override
@@ -39,7 +46,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
             .authorizeRequests()
             .antMatchers("/login*").permitAll()
             .antMatchers("/static/**").permitAll()
-            .antMatchers("/index*").access("hasRole('USER') or hasRole('ADMIN')")
+            .antMatchers("/**").access("hasRole('USER') or hasRole('ADMIN')")
             .antMatchers("/admin/**").access("hasRole('ADMIN')")
             .antMatchers("/dba/**").access("hasRole('ADMIN') or hasRole('DBA')");
 
@@ -47,12 +54,12 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
             .usernameParameter("username")
             .passwordParameter("password")
             .and()
-//                .logout().logoutSuccessUrl("/").logoutUrl("/logout").deleteCookies("JSESSIONID")
             .logout().logoutSuccessHandler(new LogoutSuccessHandler())
             .and()
             .exceptionHandling().accessDeniedPage("/error")
         ;
         http.rememberMe().tokenValiditySeconds(86400);
         http.csrf().disable();
+        http.addFilter(concurrentSessionFilter);
     }
 }
