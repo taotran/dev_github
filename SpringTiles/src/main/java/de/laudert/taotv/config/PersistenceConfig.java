@@ -1,7 +1,10 @@
 package de.laudert.taotv.config;
 
+import com.googlecode.flyway.core.Flyway;
+import de.laudert.taotv.manager.MigrationManager;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.DependsOn;
 import org.springframework.core.env.Environment;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
@@ -58,6 +61,7 @@ public class PersistenceConfig {
     }
 
     @Bean
+    @DependsOn(value = "migrationManager")
     public LocalContainerEntityManagerFactoryBean entityManagerFactory() {
 
         final LocalContainerEntityManagerFactoryBean entityManagerFactoryBean = new LocalContainerEntityManagerFactoryBean();
@@ -72,5 +76,19 @@ public class PersistenceConfig {
         jpaProperties.put(HIBERNATE_NAMING_STRATEGY, env.getRequiredProperty(HIBERNATE_NAMING_STRATEGY));
         entityManagerFactoryBean.setJpaProperties(jpaProperties);
         return entityManagerFactoryBean;
+    }
+
+    @Bean(name = "flyway")
+    public Flyway flyway() {
+        Flyway flyway = new Flyway();
+        flyway.setDataSource(dataSource());
+        flyway.setLocations("db.migration");
+
+        return flyway;
+    }
+
+    @Bean(initMethod = "migrate")
+    public MigrationManager migrationManager() {
+        return new MigrationManager();
     }
 }

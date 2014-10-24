@@ -44,6 +44,7 @@ public class AdministrationController {
     @RequestMapping(value = "/sessionList", method = RequestMethod.GET)
     public String sessionList(ModelMap model) {
         model.addAttribute("usersessions", userSessionService.findAll());
+        model.addAttribute("currentPage", "sessionlist");
         return "sessionList";
     }
 }

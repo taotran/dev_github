@@ -36,10 +36,10 @@
 
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="/index"><spring:message code="label.navigation.homepage.link"/></a></li>
-                    <li><a href="/userList"><spring:message code="label.navigation.user_list"/></a></li>
-                    <li><a href="/allUserList"><spring:message code="label.navigation.all_user_list"/></a></li>
-                    <li><a href="/sessionList"><spring:message code="label.navigation.session_list"/></a></li>
+                    <li class="<c:if test="${currentPage == 'home'}"><c:out value="active"/></c:if>"><a href="/index"><spring:message code="label.navigation.homepage.link"/></a></li>
+                    <li class="<c:if test="${currentPage == 'userlist'}"><c:out value="active"/></c:if>"><a href="/userList"><spring:message code="label.navigation.user_list"/></a></li>
+                    <li class="<c:if test="${currentPage == 'alluserlist'}"><c:out value="active"/></c:if>"><a href="/allUserList"><spring:message code="label.navigation.all_user_list"/></a></li>
+                    <li class="<c:if test="${currentPage == 'sessionlist'}"><c:out value="active"/></c:if>"><a href="/sessionList"><spring:message code="label.navigation.session_list"/></a></li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">

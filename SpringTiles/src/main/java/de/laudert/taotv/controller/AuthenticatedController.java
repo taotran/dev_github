@@ -28,6 +28,7 @@ public class AuthenticatedController {
 
     @RequestMapping(value = {"/index", "/"}, method = RequestMethod.GET)
     public String index(ModelMap model) {
+        model.addAttribute("currentPage", "home");
         return "index";
     }
 
@@ -68,6 +69,7 @@ public class AuthenticatedController {
         model.addAttribute("pages", userService.count() / 50);
         sw.stop();
         System.out.println("=====TOTAL LOADING TIME: " + sw.getLastTaskTimeMillis());
+        model.addAttribute("currentPage", "userlist");
         return "userList";
     }
 
@@ -79,6 +81,7 @@ public class AuthenticatedController {
         model.addAttribute("pages", userService.count() / 50);
         sw.stop();
         System.out.println("=====TOTAL LOADING TIME: " + sw.getLastTaskTimeMillis());
+        model.addAttribute("currentPage", "alluserlist");
         return "userList";
     }
 

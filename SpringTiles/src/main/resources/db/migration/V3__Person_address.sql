@@ -1,0 +1,1 @@
+alter table PERSON add address varchar(100);

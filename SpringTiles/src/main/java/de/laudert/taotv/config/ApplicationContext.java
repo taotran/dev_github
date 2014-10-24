@@ -1,5 +1,6 @@
 package de.laudert.taotv.config;
 
+import org.springframework.context.ApplicationListener;
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
@@ -14,7 +15,7 @@ import org.springframework.context.support.ResourceBundleMessageSource;
  * Time: 5:24 PM
  */
 @Configuration
-@ComponentScan(basePackages = {"de.laudert.taotv.service"})
+@ComponentScan(basePackages = {"de.laudert.taotv"})
 @PropertySource("classpath:application.properties")
 @Import({PersistenceConfig.class, SpringSecurityConfig.class})
 public class ApplicationContext {
@@ -28,5 +29,10 @@ public class ApplicationContext {
         messageSource.setBasename(MESSAGE_SOURCE_BASE_NAME);
         messageSource.setUseCodeAsDefaultMessage(true);
         return messageSource;
+    }
+
+    @Bean
+    public ApplicationListener applicationListener() {
+        return new ApplicationContextListener();
     }
 }
