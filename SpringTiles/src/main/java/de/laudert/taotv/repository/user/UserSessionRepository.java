@@ -10,4 +10,5 @@ import de.laudert.taotv.repository.EntityRepository;
  */
 public interface UserSessionRepository extends EntityRepository<UserSession> {
 
+    public UserSession findBySessionId(String sessionId);
 }

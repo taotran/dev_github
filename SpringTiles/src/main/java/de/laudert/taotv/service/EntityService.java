@@ -18,4 +18,6 @@ public interface EntityService<T> {
     public void delete(Long id) throws ItemNotFoundException;
 
     public T save(T t);
+
+    public long count();
 }

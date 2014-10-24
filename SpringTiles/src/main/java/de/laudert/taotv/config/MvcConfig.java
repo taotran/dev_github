@@ -1,5 +1,8 @@
 package de.laudert.taotv.config;
 
+import org.apache.log4j.ConsoleAppender;
+import org.apache.log4j.Level;
+import org.apache.log4j.PatternLayout;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -53,5 +56,15 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
         final String[] definitions = new String[]{TILES_DEFINITION};
         configurer.setDefinitions(definitions);
         return configurer;
+    }
+
+    @Bean
+    public ConsoleAppender consoleAppender() {
+        ConsoleAppender consoleAppender = new ConsoleAppender();
+        consoleAppender.setThreshold(Level.ALL);
+        PatternLayout patternLayout = new PatternLayout();
+        patternLayout.setConversionPattern("%d %-5p [%c{1}] %m %n");
+        consoleAppender.setLayout(patternLayout);
+        return consoleAppender;
     }
 }

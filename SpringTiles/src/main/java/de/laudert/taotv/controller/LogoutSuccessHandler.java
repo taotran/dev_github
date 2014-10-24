@@ -1,7 +1,9 @@
 package de.laudert.taotv.controller;
 
+import de.laudert.taotv.service.user.UserSessionService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.web.authentication.logout.SimpleUrlLogoutSuccessHandler;
 
@@ -17,12 +19,15 @@ import java.io.IOException;
  */
 public class LogoutSuccessHandler extends SimpleUrlLogoutSuccessHandler {
 
-    private static final Logger logger = LoggerFactory.getLogger(LogoutSuccessHandler.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(LogoutSuccessHandler.class);
+
+    @Autowired
+    private UserSessionService userSessionService;
 
     @Override
     public void onLogoutSuccess(HttpServletRequest request, HttpServletResponse response, Authentication authentication) throws IOException, ServletException {
         if (authentication != null) {
-            logger.debug(request.getSession().getId() + " LOGGED OUT");
+
         }
         setDefaultTargetUrl("/index");
         super.onLogoutSuccess(request, response, authentication);

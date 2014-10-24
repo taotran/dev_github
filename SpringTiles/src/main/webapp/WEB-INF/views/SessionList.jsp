@@ -4,56 +4,38 @@
 <html>
 <head>
     <script type="text/javascript" src="/static/js/user.view.js"></script>
-    <script type="text/javascript">
-        $(function () {
-            var userTable = $("#user-list");
-
-            var renderTable = function (container) {
-                $.get("/userList", function (data) {
-                    container.empty().html(data);
-                });
-            };
-
-//            renderTable(userTable);
-
-            $("#refreshButton").click(function () {
-                renderTable(userTable);
-            });
-        });
-
-    </script>
 </head>
 <body>
 <div id="user-list" class="table-responsive">
     <c:choose>
-        <c:when test="${empty users}">
+        <c:when test="${empty usersessions}">
             <p>Empty</p>
         </c:when>
         <c:otherwise>
 
-            <table class="table" id="userTable">
+            <table class="table">
                 <thead>
                 <tr>
                     <th>#</th>
                     <th>Username</th>
-                    <th>Role</th>
-                    <th>Enabled</th>
+                    <th>Login Time</th>
+                    <th>Session Id</th>
                     <th></th>
                 </tr>
                 </thead>
                 <tbody>
-                <c:forEach items="${users}" var="user">
+                <c:forEach items="${usersessions}" var="us">
                     <tr>
                         <td>
-                            <div id="user-id"><c:out value="${user.id}"/></div>
+                            <div id="user-id"><c:out value="${us.id}"/></div>
                         </td>
-                        <td><c:out value="${user.username}"/></td>
-                        <td><c:out value="${user.role}"/></td>
-                        <td><c:out value="${user.enabled}"/></td>
+                        <td><c:out value="${us.user.username}"/></td>
+                        <td><c:out value="${us.loginTimestamp}"/></td>
+                        <td><c:out value="${us.sessionId}"/></td>
                         <td>
                             <div class="user-action-buttons">
-                                <a href="/admin/update/id=${user.id}" class="btn btn-xs btn-primary">Update</a>
-                                <a href="#" id="delete-user-link" class="btn btn-xs btn-danger">Delete</a>
+                                <a href="/admin/update/id=${us.id}" class="btn btn-xs btn-primary">Update</a>
+                                <a href="#" id="delete-user-link" class="btn btn-xs btn-danger">Expired Now!</a>
                             </div>
                         </td>
                     </tr>
@@ -62,12 +44,8 @@
             </table>
         </c:otherwise>
     </c:choose>
-    <div id="pages"><c:forEach items="${pages}" var="page">
-        <c:out value="${page}"/> |
-    </c:forEach></div>
-    <input type="button" id="refreshButton" value="Refresh"/>
 </div>
-<script id="template-delete-user-confirmation-dialog" type="text/x-handlebars-template">
+<script id="template-expire-user-confirmation-dialog" type="text/x-handlebars-template">
     <div id="delete-user-confirmation-dialog" class="modal">
         <div class="modal-header">
             <button class="close" data-dismiss="modal">x</button>

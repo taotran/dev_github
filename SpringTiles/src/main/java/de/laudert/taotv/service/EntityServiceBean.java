@@ -45,8 +45,13 @@ public class EntityServiceBean<T extends AbstractEntity> implements EntityServic
     }
 
     @Override
-    @Transactional(rollbackFor = Exception.class)
+    @Transactional
     public T save(T t) {
         return entityRepository.save(t);
+    }
+
+    @Override
+    public long count() {
+        return entityRepository.count();
     }
 }

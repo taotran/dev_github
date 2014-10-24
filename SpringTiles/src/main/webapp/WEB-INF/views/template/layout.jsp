@@ -3,9 +3,11 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles" %>
+<%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt" %>
 <html>
 <head>
     <title><spring:message code="spring.test.mvc.example.title"/></title>
+    <%--<title><fmt:message key="spring.test.mvc.example.title"/></title>--%>
     <%--<link rel="stylesheet" type="text/css" href="../../../static/css/example.css"/>--%>
     <link rel="stylesheet" type="text/css" href="../../../static/css/bootstrap.min.css"/>
     <link rel="stylesheet" type="text/css" href="../../../static/css/navbar-fixed-top.css"/>
@@ -36,6 +38,8 @@
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="/index"><spring:message code="label.navigation.homepage.link"/></a></li>
                     <li><a href="/userList"><spring:message code="label.navigation.user_list"/></a></li>
+                    <li><a href="/allUserList"><spring:message code="label.navigation.all_user_list"/></a></li>
+                    <li><a href="/sessionList"><spring:message code="label.navigation.session_list"/></a></li>
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
@@ -44,6 +48,7 @@
                     <li class="active"><a href="./">Fixed top</a></li>
                     <c:url value="/logout" var="logoutUrl"/>
                     <li><a href="${logoutUrl}"><spring:message code="label.navigation.logout.link"/></a></li>
+                    <li><a href="/expire">Expire Now</a></li>
                     <input type="hidden" name="${_csrf.parameterName}" value="${_csrf.token}"/>
                 </ul>
             </div>
@@ -65,18 +70,18 @@
     </div>
 </div>
 
-<%--<script id="template-alert-message-error" type="text/x-handlebars-template">--%>
-<%--<div id="alert-message-error" class="alert alert-error fade in">--%>
-<%--<a class="close" data-dismiss="alert">&times;</a>--%>
-<%--{{message}}--%>
-<%--</div>--%>
-<%--</script>--%>
+<script id="template-alert-message-error" type="text/x-handlebars-template">
+    <div id="alert-message-error" class="alert alert-error fade in">
+        <a class="close" data-dismiss="alert">&times;</a>
+        {{message}}
+    </div>
+</script>
 
-<%--<script id="template-alert-message" type="text/x-handlebars-template">--%>
-<%--<div id="alert-message" class="alert alert-success fade in">--%>
-<%--<a class="close" data-dismiss="alert">&times;</a>--%>
-<%--{{message}}--%>
-<%--</div>--%>
-<%--</script>--%>
+<script id="template-alert-message" type="text/x-handlebars-template">
+    <div id="alert-message" class="alert alert-success fade in">
+        <a class="close" data-dismiss="alert">&times;</a>
+        {{message}}
+    </div>
+</script>
 </body>
 </html>

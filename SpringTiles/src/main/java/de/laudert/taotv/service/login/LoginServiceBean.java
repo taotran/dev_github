@@ -10,7 +10,6 @@ import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
-import java.sql.Timestamp;
 import java.util.Arrays;
 import java.util.List;
 
@@ -28,9 +27,6 @@ public class LoginServiceBean implements LoginService {
     @Autowired
     private UserSessionRepository userSessionRepository;
 
-    @Autowired
-    private CustomSessionRegistry sessionRegistry;
-
     @Override
     public UserDetails loadUserByUsername(String username) throws UserNotFoundException {
         final de.laudert.taotv.domain.user.User user = userService.findByUsername(username);
@@ -38,13 +34,7 @@ public class LoginServiceBean implements LoginService {
             throw new UserNotFoundException("User not found!");
         }
         final List<SimpleGrantedAuthority> authorities = Arrays.asList(new SimpleGrantedAuthority(user.getRole()));
-        User u = new User(user.getUsername(), user.getPassword(), authorities);
-        UserSession userSession = new UserSession();
-        userSession.setLoginTimestamp(new Timestamp(System.currentTimeMillis()));
-        userSession.setSessionId("");
-        userSession.setUser(user);
-        save(userSession);
-        return u;
+        return new User(user.getUsername(), user.getPassword(), authorities);
     }
 
     @Override

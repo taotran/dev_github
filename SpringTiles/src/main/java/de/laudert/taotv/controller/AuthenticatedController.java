@@ -1,9 +1,11 @@
 package de.laudert.taotv.controller;
 
+import de.laudert.taotv.config.CustomSessionRegistry;
 import de.laudert.taotv.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.util.StopWatch;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -20,6 +22,9 @@ public class AuthenticatedController {
 
     @Autowired
     private UserService userService;
+
+    @Autowired
+    private CustomSessionRegistry sessionRegistry;
 
     @RequestMapping(value = {"/index", "/"}, method = RequestMethod.GET)
     public String index(ModelMap model) {
@@ -57,7 +62,29 @@ public class AuthenticatedController {
 
     @RequestMapping(value = "/userList")
     public String userList(ModelMap model) {
-        model.addAttribute("users", userService.findAll());
+        StopWatch sw = new StopWatch();
+        sw.start();
+        model.addAttribute("users", userService.loadUsersPagination(1, 50));
+        model.addAttribute("pages", userService.count() / 50);
+        sw.stop();
+        System.out.println("=====TOTAL LOADING TIME: " + sw.getLastTaskTimeMillis());
         return "userList";
+    }
+
+    @RequestMapping(value = "/allUserList")
+    public String allUserList(ModelMap model) {
+        StopWatch sw = new StopWatch();
+        sw.start();
+        model.addAttribute("users", userService.findAll());
+        model.addAttribute("pages", userService.count() / 50);
+        sw.stop();
+        System.out.println("=====TOTAL LOADING TIME: " + sw.getLastTaskTimeMillis());
+        return "userList";
+    }
+
+    @RequestMapping(value = "/expire")
+    public String expireNow(ModelMap model, HttpSession session) {
+        sessionRegistry.getSessionInformation(session.getId()).expireNow();
+        return "expire";
     }
 }
