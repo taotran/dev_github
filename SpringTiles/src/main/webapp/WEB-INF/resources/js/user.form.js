@@ -1,8 +1,8 @@
-$(function() {
+$(function () {
     addValidationErrorClassesToForm();
 
     function addValidationErrorClassesToForm() {
-        $("form").find(".control-group").each(function() {
+        $("form").find(".control-group").each(function () {
             var errorMessage = $(this).find(".help-inline").text();
 
             if (errorMessage) {

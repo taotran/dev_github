@@ -58,13 +58,21 @@
                         </td>
                     </tr>
                 </c:forEach>
+                <tr>
+                    <td colspan="5">
+                        <c:forEach begin="1" end="${pages}" varStatus="loop" var="i">
+                            <c:out value="${i}"/> |
+                        </c:forEach>
+                            <%--1 | 2 | 3 | 4 | 5--%>
+                    </td>
+                </tr>
                 </tbody>
             </table>
         </c:otherwise>
     </c:choose>
-    <div id="pages"><c:forEach items="${pages}" var="page">
-        <c:out value="${page}"/> |
-    </c:forEach></div>
+    <%--<div id="pages"><c:forEach items="${pages}" var="page">--%>
+    <%--<c:out value="${page}"/> |--%>
+    <%--</c:forEach></div>--%>
     <input type="button" id="refreshButton" value="Refresh"/>
 </div>
 <script id="template-delete-user-confirmation-dialog" type="text/x-handlebars-template">

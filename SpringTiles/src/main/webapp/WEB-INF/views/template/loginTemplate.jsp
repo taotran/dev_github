@@ -8,8 +8,8 @@
     <title>Signin Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../../static/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../../../static/css/signin.css" rel="stylesheet">
+    <link href="../../resources/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../resources/css/signin.css" rel="stylesheet">
 </head>
 
 <body>

@@ -3,21 +3,12 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@ taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles" %>
-<%@ taglib prefix="fmt" uri="http://java.sun.com/jstl/fmt" %>
+<%@ taglib tagdir="/WEB-INF/tags/util" prefix="util" %>
 <html>
 <head>
     <title><spring:message code="spring.test.mvc.example.title"/></title>
-    <%--<title><fmt:message key="spring.test.mvc.example.title"/></title>--%>
-    <%--<link rel="stylesheet" type="text/css" href="../../../static/css/example.css"/>--%>
-    <link rel="stylesheet" type="text/css" href="../../../static/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="../../../static/css/navbar-fixed-top.css"/>
-    <link rel="stylesheet" type="text/css" href="../../../static/css/bootstrap-responsive.css"/>
-    <script type="text/javascript" src="../../../static/js/vendor/jquery-1.8.2.js"></script>
-    <script type="text/javascript" src="../../../static/js/vendor/bootstrap.js"></script>
-    <script type="text/javascript" src="../../../static/js/vendor/bootstrap-transition.js"></script>
-    <script type="text/javascript" src="../../../static/js/vendor/bootstrap-collapse.js"></script>
-    <script type="text/javascript" src="../../../static/js/vendor/handlebars-1.0.rc.1.js"></script>
-    <script type="text/javascript" src="../../../static/js/user.js"></script>
+    <util:load-scripts/>
+</head>
 </head>
 <body>
 <div class="page">
@@ -43,9 +34,6 @@
                 </ul>
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="../navbar/">Default</a></li>
-                    <li><a href="../navbar-static-top/">Static top</a></li>
-                    <li class="active"><a href="./">Fixed top</a></li>
                     <c:url value="/logout" var="logoutUrl"/>
                     <li><a href="${logoutUrl}"><spring:message code="label.navigation.logout.link"/></a></li>
                     <li><a href="/expire">Expire Now</a></li>

@@ -1,14 +1,14 @@
 var User = {
-    addErrorMessage:function (message) {
+    addErrorMessage: function (message) {
         var alertTemplate = Handlebars.compile($("#template-alert-message-error").html());
-        $("#message-holder").html(alertTemplate({message:message}));
-        $("#alert-message-error").alert().delay(5000).fadeOut("slow", function() { $(this).remove(); });
+        $("#message-holder").html(alertTemplate({message: message}));
+        $("#alert-message-error").alert().delay(5000).fadeOut("slow", function () { $(this).remove(); });
     },
 
-    addMessage:function (message) {
+    addMessage: function (message) {
         var alertTemplate = Handlebars.compile($("#template-alert-message").html());
-        $("#message-holder").html(alertTemplate({message:message}));
-        $("#alert-message").alert().delay(5000).fadeOut("fast", function() { $(this).remove(); });
+        $("#message-holder").html(alertTemplate({message: message}));
+        $("#alert-message").alert().delay(5000).fadeOut("fast", function () { $(this).remove(); });
     }
 };
 

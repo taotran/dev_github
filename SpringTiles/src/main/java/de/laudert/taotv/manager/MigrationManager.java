@@ -24,6 +24,7 @@ public class MigrationManager {
     public void migrate() {
         System.out.println("ON MIGRATION");
 //        flyway.clean();
+        flyway.setInitOnMigrate(true);
         flyway.migrate();
         System.out.println(getMigrationStatisticString(flyway.info().all()));
     }

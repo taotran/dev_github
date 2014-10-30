@@ -69,6 +69,7 @@ public class AuthenticatedController {
         model.addAttribute("pages", userService.count() / 50);
         sw.stop();
         System.out.println("=====TOTAL LOADING TIME: " + sw.getLastTaskTimeMillis());
+        System.out.println("=====TOTAL PAGES: " + model.get("pages"));
         model.addAttribute("currentPage", "userlist");
         return "userList";
     }
@@ -81,6 +82,7 @@ public class AuthenticatedController {
         model.addAttribute("pages", userService.count() / 50);
         sw.stop();
         System.out.println("=====TOTAL LOADING TIME: " + sw.getLastTaskTimeMillis());
+        System.out.println("=====TOTAL PAGES: " + model.get("pages"));
         model.addAttribute("currentPage", "alluserlist");
         return "userList";
     }
